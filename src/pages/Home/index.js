@@ -14,6 +14,7 @@ export default function Home() {
          <Image
           source={require('../../assets/banner.png')}
           style={styles.image}
+        
          />
 
          <View style={styles.textContainer}>
@@ -78,7 +79,7 @@ const styles = StyleSheet.create({
     marginBottom: 8
   },
   image:{
-    width: '100%'
+    width: '100%',
   },
   textContainer:{
     flexDirection: 'row',
